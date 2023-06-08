@@ -11,7 +11,7 @@ npm install
 npm run dev
 ```
 
-## Installing in an Evidence projects
+## Installing in an Evidence project
 
 Follow the instructions in the [Docs](https://docs.evidence.dev/plugins/installing-plugins) to add components from Evidence Labs into your project.
 
