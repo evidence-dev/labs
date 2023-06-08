@@ -10,6 +10,9 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
+	"evidence": {
+		"components": true
+	},
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
@@ -37,5 +40,11 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@evidence-dev/component-utilities": "0.0.0-a649a9ed",
+		"@evidence-dev/core-components": "0.0.0-a649a9ed",
+		"@evidence-dev/plugin-connector": "0.0.0-a649a9ed",
+		"echarts": "^5.4.2"
+	}
 }
