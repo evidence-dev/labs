@@ -3,8 +3,7 @@
 	"version": "0.0.3",
 	"scripts": {
 		"dev": "evidence dev",
-		"build": "vite build && npm run package",
-		"preview": "vite preview",
+		"build": "evidence build:strict",
 		"package": "svelte-kit sync && svelte-package && publint",
 		"prepublishOnly": "npm run package",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
@@ -46,6 +45,10 @@
 		"@evidence-dev/core-components": "0.0.0-7eb2fa9a",
 		"@evidence-dev/evidence": "0.0.0-7eb2fa9a",
 		"@evidence-dev/preprocess": "0.0.0-7eb2fa9a",
+		"@evidence-dev/db-orchestrator": "0.0.0-7eb2fa9a",
+		"@evidence-dev/db-commons": "0.0.0-7eb2fa9a",
+		"@evidence-dev/duckdb": "0.0.0-7eb2fa9a",
+		"@evidence-dev/csv": "0.0.0-7eb2fa9a",
 		"echarts": "^5.4.2"
 	}
 }
