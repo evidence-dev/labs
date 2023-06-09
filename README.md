@@ -11,11 +11,29 @@ npm install
 npm run dev
 ```
 
-## Installing in an Evidence project
+## Using Evidence Labs Components
 
-Follow the instructions in the [Docs](https://docs.evidence.dev/plugins/installing-plugins) to add components from Evidence Labs into your project.
+1. Install the package from npm:
+    ```bash
+    npm install --save @evidence-dev/labs
+    ```
+2. Include it in your `evidence.plugins.yaml` file:
 
+    ```yaml 
+    components:
+        @evidence-dev/core-components: {}
+        @evidence-dev/labs: {}
+    ```
+3. Add the component to your page!
+
+<Alert status=info>
+Ensure you restart your dev server after adding the plugin!
+</Alert>
 
 ## Build your own plugin
 
-This may also be helpful as an example for building your own evidence plugins.
+1. Clone this repository
+2. Add your components to the `src/lib` directory
+3. Test they work by adding them to a page in the `pages/` directory
+4. Edit the name in `package.json` from `@evidence-dev/labs` to `your-plugin-name` and set the version to `0.0.1`
+5. Publish to npm with `npm publish` (You will need to be logged in to an [npm](https://www.npmjs.com/signup) account)

@@ -1,6 +1,8 @@
 # Evidence Labs
 
 Evidence Labs contains experiemental components and features for [Evidence](https://evidence.dev) projects.
+- Github: https://github.com/evidence-dev/labs
+- npm: https://www.npmjs.com/package/@evidence-dev/labs
 
 ## Using Evidence Labs Components
 
