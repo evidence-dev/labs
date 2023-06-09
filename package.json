@@ -41,14 +41,8 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@evidence-dev/component-utilities": "0.0.0-7eb2fa9a",
-		"@evidence-dev/core-components": "0.0.0-7eb2fa9a",
-		"@evidence-dev/evidence": "0.0.0-7eb2fa9a",
-		"@evidence-dev/preprocess": "0.0.0-7eb2fa9a",
-		"@evidence-dev/db-orchestrator": "0.0.0-7eb2fa9a",
-		"@evidence-dev/db-commons": "0.0.0-7eb2fa9a",
-		"@evidence-dev/duckdb": "0.0.0-7eb2fa9a",
-		"@evidence-dev/csv": "0.0.0-7eb2fa9a",
+		"@evidence-dev/core-components": "1.0.0",
+		"@evidence-dev/evidence": "18.0.0",
 		"echarts": "^5.4.2"
 	}
 }
