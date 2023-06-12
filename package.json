@@ -41,8 +41,8 @@
 	"types": "./dist/index.d.ts",
 	"type": "module",
 	"dependencies": {
-		"@evidence-dev/core-components": "^1.0.1",
-		"@evidence-dev/evidence": "^18.0.1",
+		"@evidence-dev/core-components": "^1.0.2",
+		"@evidence-dev/evidence": "^18.0.2",
 		"echarts": "^5.4.2"
 	}
 }
