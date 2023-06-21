@@ -138,4 +138,22 @@ select 'China' as country, 155 as sales_usd, './canada' as link
 
 ## World Map
 
-<WorldMap data={world} title="World Map" subtitle="Sales by Country" region=country value=sales_usd colorScale=green/>
+<WorldMap 
+    data={world} 
+    title="World Map" 
+    subtitle="Sales by Country" 
+    region=country 
+    value=sales_usd 
+    colorScale=green
+/>
+
+```html
+<WorldMap 
+    data={world} 
+    title="World Map" 
+    subtitle="Sales by Country" 
+    region=country 
+    value=sales_usd 
+    colorScale=green
+/>
+```
