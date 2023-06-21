@@ -1,6 +1,6 @@
 {
 	"name": "@evidence-dev/labs",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"scripts": {
 		"dev": "evidence dev",
 		"build": "evidence build:strict",
