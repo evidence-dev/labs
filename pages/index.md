@@ -50,7 +50,7 @@ Note: Do you need to do this, or should you be creating your own plugin? See REA
 </Alert>
 
 1. Fork and clone the repo: `https://github.com/evidence-dev/labs`
-1. Add  `YourComponent.svelte` to the `src/lib` folder
+1. Add  `YourComponent.svelte` to the `src/lib` folder, making sure you add an evidenceInclude flag (see examples)
 1. Test it by adding it to `pages/your-component/index.md` (you will need to import it, and the syntax is a bit annoying - see other components for examples)
 1. Export it from `src/lib/index.js` so it can be imported by other projects when it is published
 1. Open a PR to the main repo
