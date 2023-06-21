@@ -1,6 +1,6 @@
 <script>
     import CustomMapConfig from './CustomMapConfig.svelte';
-    import mapJson from './map.json';
+    import mapJson from './worldMap.json';
 
     export let mapName = 'World';
 
