@@ -27,4 +27,17 @@ Ensure you restart your dev server after adding the plugin!
 
 ## Component List
 
+### Maps
 - [Maps](/maps)
+
+### UI
+- [Grid](/grid)
+- [Footnote](/footnote)
+- [Github Stars](/github-stars)
+
+### Embeds
+- [Google Sheet](/google-sheet)
+- [PDF](/pdf)
+
+### Data
+- [Cohort Analysis](/cohort-analysis)
