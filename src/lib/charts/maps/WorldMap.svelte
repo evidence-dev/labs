@@ -1,3 +1,7 @@
+<script context="module">
+    export const evidenceInclude = true;
+</script>
+
 <script>
     import CustomMapConfig from './CustomMapConfig.svelte';
     import mapJson from './worldMap.json';
