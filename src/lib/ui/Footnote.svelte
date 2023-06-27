@@ -1,3 +1,7 @@
+<script context="module">
+    export const evidenceInclude = true;
+</script>
+
 <script>
     export let id = undefined;
 </script>
