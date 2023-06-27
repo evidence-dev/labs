@@ -24,3 +24,4 @@ select 'E' as category, 'West' as region, 8459 as sales_usd
 ```
 
 <Summarizer data={categories} value=sales_usd/>
+
