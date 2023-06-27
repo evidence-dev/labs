@@ -41,6 +41,7 @@ Ensure you restart your dev server after adding the plugin!
 
 ### Data
 - [Cohort Analysis](/cohort-analysis)
+- [Summarizer Component](/summarizer)
 
 
 ## Adding a New Component to Evidence Labs
