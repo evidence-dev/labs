@@ -34,6 +34,7 @@ Ensure you restart your dev server after adding the plugin!
 - [Grid](/grid)
 - [Footnote](/footnote)
 - [Github Stars](/github-stars)
+- [Slider](/slider) - contributed by [@kuatroka](https://github.com/kuatroka)
 
 ### Embeds
 - [Google Sheet](/google-sheet)

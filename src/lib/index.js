@@ -8,3 +8,4 @@ export { default as GoogleSheet } from './ui/GoogleSheet.svelte';
 export { default as Grid } from './ui/Grid.svelte';
 export { default as PDF } from './ui/PDF.svelte';
 export { default as Summarizer } from './charts/analysis/Summarizer.svelte';
+export { default as Slider } from './ui/Slider.svelte';
