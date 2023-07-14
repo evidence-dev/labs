@@ -20,7 +20,6 @@
     export let tooltipFields = [];
     export let height = 500; // height in pixels
 
-
     $: onMount(async () => {
         if(browser) {
             const leaflet = await import('leaflet');
