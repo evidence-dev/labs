@@ -29,6 +29,7 @@ Ensure you restart your dev server after adding the plugin!
 
 ### Maps
 - [Maps](/maps)
+- [Leaflet Map](/leaflet-map)
 
 ### UI
 - [Grid](/grid)
