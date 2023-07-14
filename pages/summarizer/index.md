@@ -5,11 +5,9 @@
 
 # Summarizer
 
-<Alert status=warning>
-This component requires the `formatTitle` and `formatValue` functions found in the `@evidence-dev/component-utilities` package. These are currently excluded from the component and as a result, some titles and values will be unformatted.
-</Alert>
-
 This component is a proof of concept for "analysis components" - components you can give a dataset to with minimal details, and have them complete aggregations and summaries for you.
+
+To get all the formatting right, it needs access to the formats of the columns - this will probably require usage of `getColumnSummary` as is done in other components.
 
 ```sql categories
 select 'A' as category, 'West' as region, 120 as sales_usd

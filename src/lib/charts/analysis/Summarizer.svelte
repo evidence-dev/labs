@@ -6,8 +6,8 @@
     import { DataTable } from '@evidence-dev/core-components';
     import { Column } from '@evidence-dev/core-components';
     import { BarChart } from '@evidence-dev/core-components';
-	// import {formatTitle} from '@evidence-dev/component-utilities';
-	// import {formatValue} from '@evidence-dev/component-utilities';
+	  import formatTitle from '@evidence-dev/component-utilities/formatTitle';
+  	import {fmt} from '@evidence-dev/component-utilities/formatting';
     
     export let data;
     export let value;
@@ -70,7 +70,6 @@ function generateSumDataset(arr, valueColumn) {
 
 let summarizedData = generateSumDataset(data, value)
 
-
 function aggregateBelowThreshold(sumDataset, valueColumn, otherThreshold) {
   // Loop through each dataset
   for (let i = 0; i < sumDataset.length; i++) {
@@ -128,17 +127,17 @@ aggregateBelowThreshold(summarizedData, value, otherThreshold)
 </script>
 
 <!-- <h2>{formatTitle(value)} Breakdown</h2> -->
-<h2>{value} Breakdown</h2>
+<h2>{formatTitle(value)} Breakdown</h2>
 
 {#each summarizedData as column}
 
 <!-- <h3>{formatTitle(column[0].column)}</h3> -->
-<h3>{column[0].column}</h3>
+<h3>{formatTitle(column[0].column)}</h3>
 
 <BarChart data={column} x={column[0].column} y={value} swapXY=true/>
 
 <!-- <p class="text-sm ml-5">"Other" includes any categories below {formatValue(otherThreshold, '0%')} of total {value}, including x, y, z, and 14 more categories.</p> -->
-<p class="text-sm ml-5">"Other" includes any categories below {otherThreshold} of total {value}, including x, y, z, and 14 more categories.</p>
+<p class="text-sm ml-5">"Other" includes any categories below {fmt(otherThreshold, 'pct')} of total {formatTitle(value)}, including x, y, z, and 14 more categories.</p>
 
 <DataTable data={column}>
     <Column id={column[0].column}/>
