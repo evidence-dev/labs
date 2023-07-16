@@ -78,3 +78,31 @@ One note is that the markdown requires specific line spacing to work correctly, 
         <AreaChart data={mock_data}/>
     </Group>
 </Grid>
+
+```html
+<Grid columns=3>
+    <Group>
+
+        ### Line
+        This is a line chart
+
+        <LineChart data={mock_data}/>
+    </Group>
+
+    <Group>
+
+        ### Bar
+        This is a bar chart
+
+        <BarChart data={mock_data}/>
+    </Group>
+
+    <Group>
+
+        ### Area
+        This is an area chart
+
+        <AreaChart data={mock_data}/>
+    </Group>
+</Grid>
+```
