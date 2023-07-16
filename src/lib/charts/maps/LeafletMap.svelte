@@ -6,7 +6,8 @@
     import { onMount, onDestroy } from 'svelte';
     import { browser } from '$app/environment';
     import formatTitle from '@evidence-dev/component-utilities/formatTitle'
-    
+    import 'leaflet/dist/leaflet.css';
+
     let mapElement;
     let map;
 
