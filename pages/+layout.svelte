@@ -1,6 +1,5 @@
 <head>
-	<script type="text/javascript">!function(e,t,n){function a(){var e=t.getElementsByTagName("script")[0],n=t.createElement("script");n.type="text/javascript",n.async=!0,n.src="https://beacon-v2.helpscout.net",e.parentNode.insertBefore(n,e)}if(e.Beacon=n=function(t,n,a){e.Beacon.readyQueue.push({method:t,options:n,data:a})},n.readyQueue=[],"complete"===t.readyState)return a();e.attachEvent?e.attachEvent("onload",a):e.addEventListener("load",a,!1)}(window,document,window.Beacon||function(){});
-	</script><script type="text/javascript">window.Beacon('init', '69527e40-eb7e-467a-95b7-4fafa764296b')</script>
+	<script src="https://www.socialintents.com/api/socialintents.1.3.js#2c9fa6c389f1b4d1018a0055f81916c9" async="async"></script>
 </head>
 
 
