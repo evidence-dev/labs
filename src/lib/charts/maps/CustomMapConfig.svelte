@@ -3,7 +3,7 @@
 	import checkInputs from '@evidence-dev/component-utilities/checkInputs';
 	import formatTitle from '@evidence-dev/component-utilities/formatTitle';
 	import getColumnSummary from '@evidence-dev/component-utilities/getColumnSummary';
-	import { chartColours } from '@evidence-dev/component-utilities/colours';
+	import { chartColours, uiColours } from '@evidence-dev/component-utilities/colours';
 
 	export let mapName = undefined;
 	export let mapJson = undefined;
@@ -117,11 +117,11 @@
 				itemGap: 7,
 				textStyle: {
 					fontSize: 14,
-					color: chartColours.grey700
+					color: uiColours.grey700
 				},
 				subtextStyle: {
 					fontSize: 13,
-					color: chartColours.grey600,
+					color: uiColours.grey600,
 					overflow: 'break'
 				},
 				top: '0%'
@@ -141,12 +141,12 @@
 				padding: 6,
 				borderRadius: 4,
 				borderWidth: 1,
-				borderColor: chartColours.grey400,
+				borderColor: uiColours.grey400,
 				backgroundColor: 'white',
 				extraCssText:
 					'box-shadow: 0 3px 6px rgba(0,0,0,.15); box-shadow: 0 2px 4px rgba(0,0,0,.12); z-index: 1;',
 				textStyle: {
-					color: chartColours.grey900,
+					color: uiColours.grey900,
 					fontSize: 12,
 					fontWeight: 400
 				},
@@ -176,25 +176,25 @@
 					map: mapName,
 					nameProperty: nameProperty,
 					itemStyle: {
-						borderColor: chartColours.grey400,
-						areaColor: chartColours.grey100
+						borderColor: uiColours.grey400,
+						areaColor: uiColours.grey100
 					},
 					emphasis: {
 						itemStyle: {
-							areaColor: chartColours.grey300
+							areaColor: uiColours.grey300
 						},
 						label: {
 							show: true,
-							color: chartColours.grey900
+							color: uiColours.grey900
 						}
 					},
 					select: {
 						disabled: false,
 						itemStyle: {
-							areaColor: chartColours.grey300
+							areaColor: uiColours.grey300
 						},
 						label: {
-							color: chartColours.grey900
+							color: uiColours.grey900
 						}
 					},
 					data: mapData
