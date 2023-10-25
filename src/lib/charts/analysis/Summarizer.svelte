@@ -126,18 +126,17 @@ aggregateBelowThreshold(summarizedData, value, otherThreshold)
 
 </script>
 
-<!-- <h2>{formatTitle(value)} Breakdown</h2> -->
-<h2>{formatTitle(value)} Breakdown</h2>
+<h2 class="markdown">{formatTitle(value)} Breakdown</h2>
 
 {#each summarizedData as column}
 
-<!-- <h3>{formatTitle(column[0].column)}</h3> -->
-<h3>{formatTitle(column[0].column)}</h3>
+
+<h3 class="markdown">{formatTitle(column[0].column)}</h3>
 
 <BarChart data={column} x={column[0].column} y={value} swapXY=true/>
 
-<!-- <p class="text-sm ml-5">"Other" includes any categories below {formatValue(otherThreshold, '0%')} of total {value}, including x, y, z, and 14 more categories.</p> -->
-<p class="text-sm ml-5">"Other" includes any categories below {fmt(otherThreshold, 'pct')} of total {formatTitle(value)}, including x, y, z, and 14 more categories.</p>
+
+<p class="markdown text-sm ml-5">"Other" includes any categories below {fmt(otherThreshold, 'pct')} of total {formatTitle(value)}, including x, y, z, and 14 more categories.</p>
 
 <DataTable data={column}>
     <Column id={column[0].column}/>
