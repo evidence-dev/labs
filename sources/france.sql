@@ -14,7 +14,7 @@ select 'Calvados'           as department, 700 as sales union all
 select 'Charente'           as department, 800 as sales union all
 select 'Charente-Maritime'  as department, 900 as sales union all
 select 'Corrèze'            as department, 1000 as sales union all
-select 'Côtes-d\'Armor'     as department, 123 as sales union all
+select 'Côtes-d\Armor'     as department, 123 as sales union all
 select 'Creuse'             as department, 852 as sales union all
 select 'Dordogne'           as department, 741 as sales union all
 select 'Doubs'              as department, 963 as sales union all
