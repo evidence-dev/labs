@@ -11,3 +11,5 @@ export { default as Group } from './ui/Group.svelte';
 export { default as PDF } from './ui/PDF.svelte';
 export { default as Summarizer } from './charts/analysis/Summarizer.svelte';
 export { default as Slider } from './ui/Slider.svelte';
+export { default as NetherlandsMunicipalitiesMap } from './charts/maps/NetherlandsMunicipalitiesMap.svelte';
+export { default as NetherlandsProvincesMap } from './charts/maps/NetherlandsProvincesMap.svelte';

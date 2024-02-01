@@ -1,6 +1,6 @@
 {
-	"name": "@evidence-dev/labs",
-	"version": "0.0.13",
+	"name": "evidence-map-netherlands",
+	"version": "0.0.3",
 	"scripts": {
 		"dev": "evidence dev",
 		"build": "evidence build:strict",
@@ -45,5 +45,5 @@
 		"@evidence-dev/evidence": "^23.0.2",
 		"echarts": "^5.4.2",
 		"leaflet": "^1.9.4"
-	}	
+	}
 }
